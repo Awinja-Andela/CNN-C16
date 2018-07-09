@@ -11,5 +11,7 @@
 ## Install requirements
 `pip install -r requirements.txt`
 
-## Run app
-`python run.py`
+## Run code on jupyter
+
+##### Start the notebook server
+`jupyter notebook`
