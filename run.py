@@ -8,13 +8,14 @@ import sklearn.linear_model
 import matplotlib
 
 # Display plots inline and change default figure size
-%matplotlib inline
+# %matplotlib inline
 matplotlib.rcParams['figure.figsize'] = (10.0, 8.0)
 
 # %% 2
 np.random.seed(3)
 X, y = sklearn.datasets.make_moons(200, noise=0.20)
 plt.scatter(X[:,0], X[:,1], s=40, c=y, cmap=plt.cm.Spectral)
+plt.show()
 
 # %% 3
 # Train the logistic rgeression classifier
@@ -144,6 +145,7 @@ model = build_model(3, print_loss=True)
 # Plot the decision boundary
 plot_decision_boundary(lambda x: predict(model, x))
 plt.title("Decision Boundary for hidden layer size 3")
+plt.show()
 
 # %% 14
 plt.figure(figsize=(16, 32))
