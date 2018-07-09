@@ -1,15 +1,15 @@
 # ML
 `A simple 3-layer neural network`
 
-# Fork, then clone the repo:
+## Fork, then clone the repo:
 `git clone git@github.com:your-username/CNN-C16.git`
 
-# Create and activate new virtual environment
+## Create and activate new virtual environment
 `virtualenv venv`
 `source venv/bin/activate`
 
-# Install requirements
+## Install requirements
 `pip install -r requirements.txt`
 
-# Run app
+## Run app
 `python run.py`
